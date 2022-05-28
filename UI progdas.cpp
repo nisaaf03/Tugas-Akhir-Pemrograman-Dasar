@@ -19,6 +19,14 @@ int main()
     cout<<"Ketik angka pada operasi yang diinginkan untuk melakukan operasi \n ";
     cout<<"-----------------------------------------------------------------\n ";
     cin>>operasi;
+    if (operasi == 1){
+          cout<<"Masukkan angka pertama yang akan dijumlah : ";
+        cin>angka1;
+        cout<<"Masukkan angka kedua yang akan dijumlah : ";
+        cin>angka2;
+        hasil = angka1 + angka2;
+        cout<<"Nilai "<<angka1<<" + "<<angka2<<" = "<<hasil;      
+    }
     if (operasi == 3){
         cout<<"Masukkan angka yang akan dibagi : ";
         cin>angka1;
