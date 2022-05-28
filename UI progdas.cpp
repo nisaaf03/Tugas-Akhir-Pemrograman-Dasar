@@ -16,5 +16,15 @@ int main()
     cout<<"________________________________________________________________ \n ";
     cout<<"Ketik angka pada operasi yang diinginkan untuk melakukan operasi \n ";
     cin>>operasi;
+    if (operasi == 5){
+    cout<<"Masukkan besar sudut dalam radian: ";
+    cin>>sudut;
+    cout<<"nilai sin dari sudut " <<sudut<<" adalah "<< sin(sudut);
+    }
+    if (operasi == 9){
+    cout<<"Masukkan angka: ";
+    cin>>bilangan;
+    cout<<"akar dari angka " <<bilangan<<" adalah "<< sqrt(bilangan);
+    }
     return 0;
 }
