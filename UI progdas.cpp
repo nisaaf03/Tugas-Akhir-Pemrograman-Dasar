@@ -1,6 +1,3 @@
-
-// Online C++ Compiler - Build, Compile and Run your C++ programs online in your favorite browser
-
 #include<iostream>
 
 using namespace std;
@@ -19,13 +16,22 @@ int main()
     cout<<"Ketik angka pada operasi yang diinginkan untuk melakukan operasi \n ";
     cout<<"-----------------------------------------------------------------\n ";
     cin>>operasi;
+
     if (operasi == 1){
-          cout<<"Masukkan angka pertama yang akan dijumlah : ";
+        cout<<"Masukkan angka pertama yang akan dijumlah : ";
         cin>angka1;
         cout<<"Masukkan angka kedua yang akan dijumlah : ";
         cin>angka2;
         hasil = angka1 + angka2;
         cout<<"Nilai "<<angka1<<" + "<<angka2<<" = "<<hasil;      
+    }
+    if (operasi == 2){
+        cout<<"Masukkan angka ke-1 : ";
+        cin>angka1;
+        cout<<"Masukkan angka ke-2 : ";
+        cin>angka2;
+        hasil = angka1 - angka2;
+        cout<<"Nilai "<<angka1<<" - "<<angka2<<" = "<<hasil;      
     }
     if (operasi == 3){
         cout<<"Masukkan angka yang akan dibagi : ";
@@ -51,14 +57,22 @@ int main()
         cout<<"Nilai tan (" <<sudut<<") = "<< tan(sudut);
     }
     if (operasi == 9){
-    cout<<"Masukkan angka: ";
-    cin>>bilangan;
-    cout<<"akar dari angka " <<bilangan<<" adalah "<< sqrt(bilangan);
+        cout<<"Masukkan angka: ";
+        cin>>angka1;
+        cout<<"akar dari angka " <<angka1<<" adalah "<< sqrt(angka1);
+    }
+    if (operasi == 10){
+        cout<<"Masukkan besar sudut dalam radian : ";
+        cin>>angka1;
+        cout<<"akar dari arcsin " <<sudut<<" adalah "<< sqrt(sudut);
     }
     if(operasi == 11){
         cout<<"Masukkan besar sudut dalam radian: ";
         cin>>sudut;
-        cout<<"Nilai arc cos (" <<sudut<<") = "<< acos(sudut);
+        cout<<"Nilai arccos (" <<sudut<<") = "<< acos(sudut);
+    }
+    else{
+        cout<<"Operasi tidak valid"
     }
 
     return 0;
