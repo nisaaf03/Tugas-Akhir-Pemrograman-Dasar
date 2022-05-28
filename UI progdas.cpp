@@ -20,12 +20,20 @@ int main()
     cout<<"-----------------------------------------------------------------\n ";
     cin>>operasi;
     if (operasi == 1){
-          cout<<"Masukkan angka pertama yang akan dijumlah : ";
+        cout<<"Masukkan angka ke-1 : ";
         cin>angka1;
-        cout<<"Masukkan angka kedua yang akan dijumlah : ";
+        cout<<"Masukkan angka ke-2 : ";
         cin>angka2;
         hasil = angka1 + angka2;
         cout<<"Nilai "<<angka1<<" + "<<angka2<<" = "<<hasil;      
+    }
+    if (operasi == 2){
+        cout<<"Masukkan angka ke-1 : ";
+        cin>angka1;
+        cout<<"Masukkan angka ke-2 : ";
+        cin>angka2;
+        hasil = angka1 - angka2;
+        cout<<"Nilai "<<angka1<<" - "<<angka2<<" = "<<hasil;      
     }
     if (operasi == 3){
         cout<<"Masukkan angka yang akan dibagi : ";
@@ -55,10 +63,15 @@ int main()
     cin>>bilangan;
     cout<<"akar dari angka " <<bilangan<<" adalah "<< sqrt(bilangan);
     }
+    if(operasi == 10){
+        cout<<"Masukkan besar sudut dalam radian: ";
+        cin>>sudut;
+        cout<<"Nilai arcsin(" <<sudut<<") = "<< asin(sudut);
+    }
     if(operasi == 11){
         cout<<"Masukkan besar sudut dalam radian: ";
         cin>>sudut;
-        cout<<"Nilai arc cos (" <<sudut<<") = "<< acos(sudut);
+        cout<<"Nilai arccos (" <<sudut<<") = "<< acos(sudut);
     }
 
     return 0;
