@@ -99,17 +99,17 @@ int main()
     if(operasi == 10){
         cout<<"Masukkan besar sudut dalam radian: ";
         cin>>sudut;
-        cout<<"Nilai arcsin(" <<sudut<<") = "<< asin(sudut);
+        cout<<"Nilai arcsin(" <<sudut<<") = "<< asin(sudut)<<" radian";
     }
     if(operasi == 11){
         cout<<"Masukkan besar sudut dalam radian: ";
         cin>>sudut;
-        cout<<"Nilai arccos (" <<sudut<<") = "<< acos(sudut);
+        cout<<"Nilai arccos (" <<sudut<<") = "<< acos(sudut)<<" radian";
     }
     if(operasi==12){
         cout<<"Masukkan nilai tan yang akan di inverse : ";
         cin>>angka1;
-        cout<<"hasil arctan("<<angka1<<") = "<<atan(angka1);
+        cout<<"hasil arctan("<<angka1<<") = "<<atan(angka1)<<" radian";
     }
     if(operasi==13){
         cout<<"Masukkan nilai derajat yang akan dikonversi : ";
