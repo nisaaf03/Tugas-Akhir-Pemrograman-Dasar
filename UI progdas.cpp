@@ -20,7 +20,7 @@ int main()
     cout<<"-----------------------------------------------------------------\n ";
     cin>>operasi;
     while(!(operasi==1||operasi==2||operasi==3||operasi==4||operasi==5||operasi==6||operasi==7||operasi==8||operasi==9||operasi==10||operasi==11||operasi==12||operasi==13||operasi==14||operasi==15)){
-        cout<<"Masukkan angka dari 1-13 !\n";
+        cout<<"Masukkan angka dari 1-15!\n";
         cin>>operasi;
     }
     if (operasi == 1){
