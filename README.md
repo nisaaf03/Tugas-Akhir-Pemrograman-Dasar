@@ -1,5 +1,5 @@
 # Tugas-Akhir-Pemrograman-Dasar
-Repository untuk Tugas Akhir Pemrograman Dasar
+Repository untuk Tugas Akhir Pemrograman Dasar.
 Program ini adalah program _Scientific Calculator_ yang dapat melakukan beberapa operasi sebagai berikut:
 1. Penjumlahan
 2. Pengurangan
